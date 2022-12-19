@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* ----------------------- GLOBAL STUFF -----------------------*/
+body{
+    background-image: url(../images/tacotile.gif);
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Changa One', cursive;
+    font-size: 50px;
+}
+
+h2{
+    font-family: 'Changa One', cursive;
+    font-size: 35px;
+    color: #cc2020;
+}
+
+h3{
+    font-family: 'Changa One', cursive;
+    font-size: 25px;
+}
+
+main{
+    margin: 5%;
+}
+
+.toptext{
+    text-align: center;
+}
+
+/* ----------------------- NAV STUFF -----------------------*/
+nav {
+    background: #333;
+}
+
+nav a{
+    color:rgb(202, 199, 198);
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0%;
+    list-style: none;
+    text-align:center;
+}
+
+nav li {
+    padding:.5rem;
+}
+
+@media screen and (min-width: 600px){
+nav > ul {
+    display:flex;
+    justify-content:space-around;
+  }
+}
+
+  @media (max-width: 600px) {
+    nav > ul {
+      flex-direction: column;
+    }
+  }
+  
+/* ----------------------- HEADERS-----------------------*/
+
+header{
+    height: 200px;
+    padding: 5%;
+    background-color: #2e241f;
+    background-image: url(../images/home-heading.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+
+
+/* ----------------------- PAGES -----------------------*/
+
+.tacochild{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
+@media screen and (min-width: 600px){
+    .tacoparent{
+        display: flex;
+        justify-content: space-between;
+    }
+.tacochild{
+    width: 32%;
+}
+}
+/* ----------------------- FOOTER -----------------------*/
+
+footer{
+    background-color: #30241e;
+    height: 100px;
+    padding: 2%;
+    text-align: center;
+    color: #dacca8;
+}
